@@ -52,10 +52,4 @@ class _FadeInTextState extends State<FadeInText> with SingleTickerProviderStateM
     _controller.dispose();
     super.dispose();
   }
-
-  @override
-  void didChangeDependencies() {
-    print('Did change');
-    super.didChangeDependencies();
-  }
 }
